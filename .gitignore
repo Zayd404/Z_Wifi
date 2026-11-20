@@ -5,4 +5,3 @@ __pycache__/
 .venv/
 venv/
 reports/*.json
-core/backup_banner.py
