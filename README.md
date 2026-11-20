@@ -6,7 +6,12 @@
 **Pengembang:** ZAnony Scarela  
 **Versi:** 1.0.0  
 **Bahasa Pemrograman:** Python  
-**Lisensi:** Belum ditentukan
+**Lisensi:** Proyek Z_Wifi menggunakan lisensi MIT.
+
+Bebas digunakan, dimodifikasi, dan didistribusikan
+sesuai ketentuan MIT License.
+
+Copyright (c) 2026 ZAnony Scarela
 
 ---
 
@@ -72,7 +77,7 @@ Catatan: Kebutuhan tambahan dapat berbeda pada setiap sistem operasi.
 
 ---
 
-## Instalasi Android / Termux
+## Instalasi linux/macOS/Termux
 
 Perbarui paket Termux:
 
@@ -94,37 +99,23 @@ pkg install termux-api -y
 
 Pasang aplikasi Termux:API Android dari sumber resmi dan berikan izin yang diperlukan.
 
+```bash
+git clone https://github.com/Zayd404/Z_Wifi.git
+```
+
 Instal dependensi Python:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Menjalankan Aplikasi
-
-Unduh proyek:
-
-```bash
-git clone https://github.com/USERNAME/Z_Wifi.git
-```
-
-Masuk ke direktori:
-
 ```bash
 cd Z_Wifi
 ```
 
-Jalankan aplikasi:
-
 ```bash
 python main.py
 ```
-
-Ganti USERNAME dengan nama pengguna GitHub pemilik repositori.
-
----
 
 ## Struktur Proyek
 
@@ -168,16 +159,6 @@ Z_Wifi dikembangkan untuk kebutuhan pembelajaran dan pemeriksaan jaringan yang s
 
 ---
 
-## Pengembang
-
-**ZAnony Scarela**
-
-Proyek: Z_Wifi  
-Versi: 1.0.0  
-Kategori: Network Discovery Tool
-
----
-
 ## Kontribusi
 
 Pengembangan Z_Wifi masih berlangsung.
@@ -185,8 +166,6 @@ Pengembangan Z_Wifi masih berlangsung.
 Saran, laporan kesalahan, dan kontribusi pengembangan sangat terbuka untuk membantu meningkatkan kualitas proyek ini.
 
 ---
-
-## Lisensi
 
 ## Lisensi
 
