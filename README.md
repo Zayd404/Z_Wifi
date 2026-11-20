@@ -1,22 +1,4 @@
-
-# Z_Wifi
-
-### WIFI_SCANNER - NETWORK DISCOVERY
-
-**Pengembang:** ZAnony Scarela  
-**Versi:** 1.0.0  
-**Bahasa Pemrograman:** Python  
-**Lisensi:** Proyek Z_Wifi menggunakan lisensi MIT.
-
-Bebas digunakan, dimodifikasi, dan didistribusikan
-sesuai ketentuan MIT License.
-
-Copyright (c) 2026 ZAnony Scarela
-
----
-
-## Tentang Proyek
-
+## Z_Wifi
 Z_Wifi merupakan aplikasi berbasis Python yang dirancang untuk membantu pengguna melakukan pemindaian, analisis, dan penemuan informasi jaringan WiFi melalui antarmuka terminal.
 
 Proyek ini dikembangkan menggunakan struktur modular agar mudah dipelajari, dikembangkan, dan diperluas ke berbagai sistem operasi.
@@ -26,29 +8,17 @@ Z_Wifi memiliki visi menjadi aplikasi Network Discovery lintas platform yang dap
 ---
 
 ## Fitur Utama
-
-### 1. Pemindaian WiFi
 Menampilkan jaringan WiFi yang terdeteksi di sekitar perangkat.
 
-### 2. Analisis Kekuatan Sinyal
 Menganalisis kekuatan sinyal WiFi berdasarkan nilai RSSI.
 
-### 3. Informasi Channel
 Menampilkan informasi channel dan frekuensi jaringan WiFi.
 
-### 4. Informasi Jaringan
 Menampilkan informasi koneksi jaringan yang sedang digunakan.
 
-### 5. Riwayat Pemindaian
 Menyimpan dan menampilkan hasil pemindaian sebelumnya.
 
-### 6. Deteksi Perangkat
 Membantu menemukan perangkat yang terdeteksi pada jaringan lokal menggunakan Nmap.
-
-### 7. Animasi Loading
-Memberikan tampilan proses yang lebih interaktif melalui animasi terminal.
-
----
 
 ## Platform
 
@@ -116,37 +86,6 @@ cd Z_Wifi
 ```bash
 python main.py
 ```
-
-## Struktur Proyek
-
-```text
-Z_Wifi/
-├── core/
-│   ├── banner.py
-│   ├── engine.py
-│   └── menu.py
-├── modules/
-│   ├── wifi_scan.py
-│   ├── signal.py
-│   ├── channel.py
-│   ├── network_info.py
-│   ├── history.py
-│   └── device_discovery.py
-├── config/
-│   └── settings.py
-├── utils/
-│   ├── colors.py
-│   ├── helpers.py
-│   └── animation.py
-├── reports/
-├── main.py
-├── requirements.txt
-├── README.md
-├── CHANGELOG.md
-└── .gitignore
-```
-
----
 
 ## Keamanan dan Penggunaan
 
